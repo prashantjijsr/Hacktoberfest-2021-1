@@ -1,0 +1,17 @@
+prashant public class JavaApplication1
+{
+public static void main(String[] args)
+{
+Scanner obj = new Scanner(System.in);
+int x,c=0;
+x = obj.nextInt();
+char b = obj.next().charAt(0);
+String s = Integer.toString(x);
+for(int i=0;i<s.length();i++)
+{
+if(s.charAt(i)==b)
+c=c+1;
+}
+System.out.println(c);
+}
+}

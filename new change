@@ -1,0 +1,19 @@
+
+    while(n) 
+    {
+
+        int k = n%10; // to store the digits of the given input
+
+        n=n/10; 
+
+        if(k==d) // compare the given digit with digit of input
+        {
+            count++; // increment counter variable
+        }
+
+    }
+
+    cout << count; // display count of digits
+
+    return 0;
+}
